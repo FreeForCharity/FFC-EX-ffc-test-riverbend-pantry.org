@@ -153,59 +153,43 @@ export type SiteConfig = {
 }
 
 export const siteConfig: SiteConfig = {
-  name: 'Free For Charity',
-  tagline: 'Reduce Costs, Increase Impact',
+  name: 'Riverbend Community Pantry',
+  tagline: 'Nonprofit Organization',
   mission:
-    'Free For Charity connects students, professionals, and businesses with nonprofits to reduce costs and increase revenues.',
+    'We stock free groceries and hot meals for every family in the Riverbend valley who needs them.',
   // Empty = the footer's Donate / Volunteer links email contactEmail instead.
-  donationUrl: '',
-  volunteerUrl: '',
+  donationUrl: 'https://www.zeffy.com/en-US/donation-form/ffc-test-riverbend-pantry',
+  volunteerUrl: 'https://www.idealist.org/en/nonprofit/ffc-test-riverbend-pantry',
   description:
-    'Free For Charity connects students, professionals, and businesses with nonprofits to reduce costs and increase revenues—putting more resources back into their missions.',
+    'We stock free groceries and hot meals for every family in the Riverbend valley who needs them.',
   shortDescription:
-    'Connecting students, professionals, and businesses with nonprofits to reduce costs and increase revenues.',
+    'We stock free groceries and hot meals for every family in the Riverbend valley who needs them.',
   url: 'https://ffcworkingsite1.org',
-  twitterHandle: '@freeforcharity',
-  contactEmail: 'clarkemoyer@freeforcharity.org',
-  keywords: [
-    'nonprofit',
-    'charity',
-    'volunteer',
-    'donate',
-    'free hosting',
-    'domains',
-    'Microsoft 365',
-  ],
+  twitterHandle: '@ffctestriverbnd',
+  contactEmail: 'hello@riverbend-pantry.example',
+  keywords: ['nonprofit', 'charity', 'donate', 'volunteer', 'Riverbend Community Pantry'],
   themeColor: '#ffffff',
   vulnerabilityDisclosurePath: '/vulnerability-disclosure-policy',
   social: [
-    { label: 'Facebook', href: 'https://www.facebook.com/freeforcharity' },
-    { label: 'X (Twitter)', href: 'https://x.com/freeforcharity1' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/company/freeforcharity/' },
-    // Repo name uses underscores — the hyphenated variant 404s.
-    { label: 'GitHub', href: 'https://github.com/FreeForCharity/FFC-IN-Footer_Only_Template' },
+    { label: 'Facebook', href: 'https://www.facebook.com/ffc-test-riverbend' },
+    { label: 'X (Twitter)', href: 'https://x.com/ffctestriverbnd' },
+    { label: 'LinkedIn', href: 'https://www.linkedin.com/company/ffc-test-riverbend' },
+    { label: 'GitHub', href: 'https://github.com/ffc-test-riverbend' },
   ],
-  ein: '46-2471893',
-  phone: { display: '(520) 222-8104', tel: '5202228104' },
+  ein: '99-0000101',
+  phone: { display: '(555) 010-0101', tel: '15550100101' },
   addresses: [
     {
       label: 'Main Address',
-      lines: ['4030 Wake Forrest Road', 'Suite 349 Raleigh North', 'Carolina 27609'],
+      lines: ['400 Mill Street', 'Riverbend, OR 97000'],
       mapUrl:
-        'https://www.google.com/maps/search/?api=1&query=4030+Wake+Forrest+Road+Suite+349+Raleigh+NC+27609',
-    },
-    {
-      label: 'PA Office Address',
-      lines: ['301 Science Park Road Suite', '119 State College PA 16803'],
-      mapUrl:
-        'https://www.google.com/maps/place/Free+For+Charity/@40.7768455,-77.8963305,17z/data=!3m1!4b1!4m6!3m5!1s0x89cea944b44a2e01:0x6fc2d6bf09e00a0f!8m2!3d40.7768415!4d-77.8937556!16s%2Fg%2F11vzvbl2d7?entry=ttu&g_ep=EgoyMDI1MTEyMy4xIKXMDSoASAFQAw%3D%3D',
+        'https://www.google.com/maps/search/?api=1&query=400%20Mill%20Street%20Riverbend%2C%20OR%2097000',
     },
   ],
   taxStatusLabel: 'a US 501c3 Non Profit',
   guidestar: {
-    profileUrl: 'https://www.guidestar.org/profile/46-2471893',
-    directProfileUrl:
-      'https://www.guidestar.org/profile/shared/bbbe173a-87b9-4af9-a8a2-cae255a95742',
+    profileUrl: 'https://www.guidestar.org/profile/99-0000101',
+    directProfileUrl: 'https://www.guidestar.org/profile/shared/ffc-test-riverbend',
   },
   supportedBy: {
     name: 'Free For Charity',

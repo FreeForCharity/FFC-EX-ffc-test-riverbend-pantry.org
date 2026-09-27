@@ -1,0 +1,36 @@
+{
+  "domain": "ffc-test-riverbend-pantry.org",
+  "charityName": "Riverbend Community Pantry",
+  "websiteSituation": "New charity domain name and new charity website",
+  "currentWebsiteUrl": "",
+  "domainRegistrar": "No domain yet",
+  "requesterGitHubUsername": "clarkemoyer",
+  "technicalPocGitHubUsername": "",
+  "cloudflareZoneControlled": false,
+  "footer": {
+    "email": "hello@riverbend-pantry.example",
+    "phone": "(555) 010-0101",
+    "address": "400 Mill Street\nRiverbend, OR 97000",
+    "ein": "99-0000101",
+    "irsStatus": "501(c)(3) (approved)",
+    "guideStarProfileUrl": "https://www.guidestar.org/profile/99-0000101",
+    "guideStarDirectProfileUrl": "https://www.guidestar.org/profile/shared/ffc-test-riverbend",
+    "socialLinks": [
+      "facebook: https://www.facebook.com/ffc-test-riverbend",
+      "x: https://x.com/ffctestriverbnd",
+      "linkedin: https://www.linkedin.com/company/ffc-test-riverbend",
+      "github: https://github.com/ffc-test-riverbend"
+    ],
+    "mission": "We stock free groceries and hot meals for every family in the Riverbend valley who needs them.",
+    "donationUrl": "https://www.zeffy.com/en-US/donation-form/ffc-test-riverbend-pantry",
+    "volunteerUrl": "https://www.idealist.org/en/nonprofit/ffc-test-riverbend-pantry"
+  },
+  "leadership": [
+    "Avery Stone | President | https://www.linkedin.com/in/ffc-test-avery",
+    "Jordan Lee | Vice President",
+    "Sam Rivera | Treasurer",
+    "Casey Morgan | Secretary",
+    "Riley Chen | Board Member at Large"
+  ],
+  "generatedUtc": "2026-09-27T22:43:54.4584983Z"
+}
